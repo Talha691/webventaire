@@ -20,25 +20,22 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            Hi there! We are a team dedicated to providing top-notch web development services. We offer comprehensive solutions for both front-end and back-end development.
+            👋 Welcome! We specialize in delivering exceptional web development services, providing end-to-end solutions for full-stack projects encompassing both front-end and back-end development.
           </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          Our front-end services include HTML, CSS, React, Vue, and Angular, while our back-end expertise covers Node.js, NestJS, Python development, Machine Learning and Block Chain services.
+            🌐 Our expertise spans a wide range of technologies, allowing us to deliver high-quality custom development as well as digital services like SEO and blockchain, enabling clients to enhance and manage their online presence effectively.
           </p>
         </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But our services go beyond just custom development - we're also proficient in using CMS systems like WordPress and Shopify, making it easy for our clients to take control of their own websites and keep them up to date.
+            🚀 Whether you need a new website or want to revamp your existing online presence, we are here to help. Let's bring your website dreams to reality together!
           </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.8 * 1000}>
-          <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, we'd love to chat and see how we can help. Let's bring your website dreams to reality together!
-          </p>
-        </ScrollAnimation>
+
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are our main skills:</h3>
         </ScrollAnimation>
@@ -49,7 +46,7 @@ export function About() {
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
-         
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
               <img src={vueIcon} alt="Vue" />
@@ -90,7 +87,7 @@ export function About() {
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
-         
+
         </div>
       </div>
       <div className="about-image">

@@ -1,12 +1,11 @@
 import { Container } from "./styles";
-import externalLink from "../../assets/external-link.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
 
 export function Project() {
   return (
     <Container id="project">
-      <h2>Our Projects</h2>
+      <h2>Projects</h2>
       <div className="projects">
 
         <ScrollAnimation animateIn="flipInX">
