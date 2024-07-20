@@ -4,8 +4,8 @@ import ScrollAnimation from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
+import discordIcon from '../../assets/discord.png'
 import Hello from '../../assets/Hello.gif'
 export function Hero() {
   return (
@@ -15,13 +15,13 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, Welcome to</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Webventaire</h1>
+          <h1>webventaire</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>A house of Engineers</h3>
+          <h3>Where Innovation Meets Excellence</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">With Years of Experience</p>
+          <p className="small-resume"></p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -37,26 +37,19 @@ export function Hero() {
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/Talha691/"
+          href="https://discord.gg/UX9zrfVY"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={githubIcon} alt="GitHub" />
+          <img src={discordIcon} alt="DisCord" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B923088726787&text=Hello+QuantumCoders"
+          href="https://api.whatsapp.com/send/?phone=%2B923088726787&text=Hi there,"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        {/* <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a> */}
         </div>
         </ScrollAnimation>
       </div>

@@ -15,7 +15,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>{"<webventaire>"}</span>
+          <span><span className='angular-bracket'>{'<'}</span>{"webventaire"}<span className='angular-bracket'>{'>'}</span></span>
         </HashLink>
         <input
           onChange={toggleTheme}
@@ -30,12 +30,12 @@ export function Header() {
             Home
           </NavHashLink>
           <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
+            About
           </NavHashLink>
           <NavHashLink smooth to="#project" onClick={closeMenu}>
             Project
           </NavHashLink>
-          <Link to='/documentation'></Link>
+          
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>

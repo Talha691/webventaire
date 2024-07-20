@@ -146,6 +146,12 @@ export const Container = styled.header`
     transform: translateX(-100%);
   }
 
+  .angular-bracket {
+    color: #23ce6b;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
   @media (max-width: 960px){
     padding: 1.8rem 3rem;
 
