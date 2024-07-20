@@ -23,7 +23,7 @@ export function Project() {
           <div className="project">
 
             <div className="body">
-              <h3>XRP AutoMinter: Effortless NFT Minting without IPFS</h3>
+              <h3>XRPL AutoMinter: Effortless NFT Minting without IPFS</h3>
               <p>
                 Developed an innovative library that simplifies the NFT minting process by eliminating the need for IPFS logic, streamlining the creation and management of NFTs on the XRP ledger. This library provides a user-friendly interface and robust functionality, enabling developers to quickly and efficiently mint NFTs with minimal setup. By focusing on the XRP ledger, it ensures fast, secure, and cost-effective transactions, making it an ideal solution for artists, creators, and developers looking to leverage blockchain technology without the complexities of IPFS integration.
               </p>
