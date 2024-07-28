@@ -29,9 +29,9 @@ export function Project() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Typescript</li>
-                <li>Decentralize Storage</li>
-                <li>Clout Storage</li>
+                <li>Blockchain</li>
+                <li>NFT Minting</li>
+                <li>XRPL</li>
               </ul>
             </footer>
           </div>
