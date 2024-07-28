@@ -1,7 +1,7 @@
 import { Container, ContainerSucces } from './styles'
 import { useForm, ValidationError } from '@formspree/react'
 import { toast, ToastContainer } from 'react-toastify'
-import ReCAPTCHA from 'react-google-recaptcha'
+// import ReCAPTCHA from 'react-google-recaptcha'
 import { useEffect, useState } from 'react'
 import validator from 'validator'
 
@@ -48,7 +48,7 @@ export function Form() {
       <h2>Get in touch using the form</h2>
       <form onSubmit={handleSubmit}>
         <input
-          placeholder="Email"
+          placeholder="webwentaire@gmail.com"
           id="email"
           type="email"
           name="email"
@@ -72,12 +72,12 @@ export function Form() {
           field="message"
           errors={state.errors}
         />
-        <ReCAPTCHA
+        {/* <ReCAPTCHA
           sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
           onChange={(e) => {
             setIsHuman(true)
           }}
-        ></ReCAPTCHA>
+        ></ReCAPTCHA> */}
         <button
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}

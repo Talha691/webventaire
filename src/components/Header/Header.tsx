@@ -1,16 +1,20 @@
 import { Container } from './styles'
-import { Link, BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
+
 export function Header() {
+
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
     let html = document.getElementsByTagName('html')[0]
     html.classList.toggle('light')
   }
+
   function closeMenu() {
     setActive(false)
   }
+
   return (
     <Container className="header-fixed">
       <Router>
@@ -29,6 +33,11 @@ export function Header() {
           <NavHashLink smooth to="#home" onClick={closeMenu}>
             Home
           </NavHashLink>
+
+          <NavHashLink smooth to="#services" onClick={closeMenu}>
+            Services
+          </NavHashLink>
+
           <NavHashLink smooth to="#about" onClick={closeMenu}>
             About
           </NavHashLink>
