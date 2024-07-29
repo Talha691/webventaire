@@ -44,9 +44,7 @@ export const Container = styled.section`
 
       &:hover{
         transform: translateY(-5px);
-        background-color: #F2FEFE;
-        border-color: #76b8f5;
-        color: #4d4d4d;
+        background-color: var(--pink);
       }
 
       header{

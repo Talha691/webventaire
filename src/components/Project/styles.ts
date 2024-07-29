@@ -28,8 +28,7 @@ export const Container = styled.section`
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
-        background-color: #fff;
-        color: black;
+        background-color: var(--pink);
       }
 
       header{
